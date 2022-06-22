@@ -19,7 +19,7 @@ function ProteinForm(props) {
               type="checkbox"
               value="Barbacoa"
               name="protein"
-              checked={props.protein.includes("Barbacoa")}
+              checked={props.protein.includes("Barbacoa")} 
               onChange={props.handleChange}
             />
             <img src={barbacoa} height="100px" width="100px" alt="barbacoa" />
